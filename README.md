@@ -27,35 +27,20 @@ cd Intelligent-PCB-Defect-Detection-with-AI-LLM-Integration
 
 ## **Usage**
 
-### **1. Jupyter Notebook Workflow**
+### **1. Jupyter training Notebook Workflow**
 To start the project, open the **Jupyter Notebook** file and run the cells sequentially. You can view and run the entire PCB defect detection workflow in the notebook.
 ```bash
-jupyter notebook Intelligent_PCB_Defect_Detection.ipynb
+jupyter notebook training-pcb-yolov8.ipynb
+```
+**2. Jupyter testing Notebook Workflow**
+To test the project, open the **Jupyter Notebook** file and run the cells sequentially. You can view and run the entire PCB defect detection workflow in the notebook.
+```bash
+jupyter notebook final_testing-pcb-yolov8_with_llm_integration.ipynb
 ```
 
-### **2. Run defect detection**
-Within the notebook, use the following code to start defect detection:
-```python
-# Example usage in notebook
-defect_image_path = "path_to_pcb_image"
-detect_defects(defect_image_path)
-```
-
-
-### **4. View generated files**
+### **3. View generated files**
 - The **PDF** report will be saved as .pdf format
 - The **audio** report will be saved as an `.mp3` format
-
-## **Project Structure**
-```
-/Intelligent-PCB-Defect-Detection-with-AI-LLM-Integration
-│
-├── Intelligent_PCB_Defect_Detection.ipynb  # Jupyter Notebook for defect detection and report generation
-├── requirements.txt         # List of required libraries
-├── /models                  # Directory to store model weights
-├── /reports                 # Directory for generated reports
-└── README.md                # Project documentation
-```
 
 ## **Technologies Used**
 - **YOLOv8m** for object detection.
