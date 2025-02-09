@@ -10,6 +10,9 @@ This repository implements an **AI-powered PCB defect detection system** using *
 - **Efficient inference** powered by Groq's server.
 - **PDF and audio-based reports** for user accessibility, generated with gTTS.
 
+- ![pcb1_prediction](https://github.com/user-attachments/assets/0a4716aa-35e8-4873-8e73-d6e1a43e0fa1)
+
+
 ## **Installation**
 
 ### **1. Clone the repository**
