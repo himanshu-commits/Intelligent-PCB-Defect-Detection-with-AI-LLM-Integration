@@ -38,16 +38,10 @@ defect_image_path = "path_to_pcb_image"
 detect_defects(defect_image_path)
 ```
 
-### **3. Generate reports**
-To generate defect reports (both **PDF** and **audio**):
-```python
-# Example usage in notebook
-generate_report(defect_image_path)
-```
 
 ### **4. View generated files**
-- The **PDF** report will be saved in the `reports/` directory.
-- The **audio** report will be saved as an `.mp3` file in the same directory.
+- The **PDF** report will be saved as .pdf format
+- The **audio** report will be saved as an `.mp3` format
 
 ## **Project Structure**
 ```
@@ -66,9 +60,6 @@ generate_report(defect_image_path)
 - **Groq’s server** for fast model inference.
 - **gTTS (Google Text-to-Speech)** for generating audio reports.
 
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## **Acknowledgments**
 - YOLOv8 for efficient object detection.
 - Llama-3.3-70b for natural language processing.
@@ -79,4 +70,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Make sure to update the `git clone` URL to match your repository. Also, if the Jupyter notebook has a different name, change it in the README.
 
-Let me know if you'd like any more tweaks!
