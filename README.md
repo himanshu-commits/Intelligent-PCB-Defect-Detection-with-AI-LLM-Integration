@@ -53,8 +53,3 @@ jupyter notebook final_testing-pcb-yolov8_with_llm_integration.ipynb
 - Llama-3.3-70b for natural language processing.
 - Groq for high-performance inference.
 - gTTS for text-to-speech conversion.
-
----
-
-Make sure to update the `git clone` URL to match your repository. Also, if the Jupyter notebook has a different name, change it in the README.
-
