@@ -1,0 +1,5 @@
+names:
+- defect
+nc: 1
+train: /kaggle/input/yolo-val-data/yolo_final_data/images/train
+val: /kaggle/input/yolo-val-data/yolo_final_data/images/val
